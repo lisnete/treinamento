@@ -1,5 +1,5 @@
 {
-	"name": "dtstreina",
+	"name": "dtsboticario",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "lksstactreinamento",
