@@ -1,0 +1,23 @@
+{
+	"name": "dtstreina",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lksstactreinamento",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "boticario",
+				"fileSystem": "cttreinamento"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
