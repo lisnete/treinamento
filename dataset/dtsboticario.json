@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "boticario",
+				"folderPath": "boticario/landed",
 				"fileSystem": "cttreinamento"
 			},
 			"columnDelimiter": ",",
